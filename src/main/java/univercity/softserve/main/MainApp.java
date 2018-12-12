@@ -1,10 +1,10 @@
-package main;
+package univercity.softserve.main;
 
-import dbo.Address;
-import dbo.Customer;
-import dbo.Name;
-import dbo.Order;
-import dto.OrderDTO;
+import univercity.softserve.dbo.Address;
+import univercity.softserve.dbo.Customer;
+import univercity.softserve.dbo.Name;
+import univercity.softserve.dbo.Order;
+import univercity.softserve.dto.OrderDTO;
 import org.modelmapper.ModelMapper;
 
 public class MainApp {

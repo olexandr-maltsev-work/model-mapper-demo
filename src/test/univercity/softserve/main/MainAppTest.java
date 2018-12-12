@@ -1,17 +1,16 @@
-package main;
+package univercity.softserve.main;
 
-import dbo.Address;
-import dbo.Customer;
-import dbo.Name;
-import dbo.Order;
-import dto.OrderDTO;
 import org.junit.Test;
 import org.modelmapper.ModelMapper;
+import univercity.softserve.dbo.Address;
+import univercity.softserve.dbo.Customer;
+import univercity.softserve.dbo.Name;
+import univercity.softserve.dbo.Order;
+import univercity.softserve.dto.OrderDTO;
 
 import static org.junit.Assert.*;
 
 public class MainAppTest {
-
     @Test
     public void testOrderDTO() {
         Name name = new Name("Jack", "Fox");
@@ -26,6 +25,5 @@ public class MainAppTest {
         assertEquals(order.getCustomer().getName().getLastName(), orderDTO.getCustomerLastName());
         assertEquals(order.getBillingAddress().getStreet(), orderDTO.getBillingStreet());
         assertEquals(order.getBillingAddress().getCity(), orderDTO.getBillingCity());
-
     }
 }

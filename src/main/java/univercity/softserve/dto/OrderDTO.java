@@ -1,4 +1,4 @@
-package dto;
+package univercity.softserve.dto;
 
 public class OrderDTO {
 

@@ -1,4 +1,4 @@
-package dbo;
+package univercity.softserve.dbo;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

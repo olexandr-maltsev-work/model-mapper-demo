@@ -1,4 +1,4 @@
-package dbo;
+package univercity.softserve.dbo;
 
 public class Name {
 

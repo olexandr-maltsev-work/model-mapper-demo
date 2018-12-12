@@ -1,7 +1,7 @@
-package main;
+package univercity.softserve.main;
 
-import dbo.UserSpring;
-import dto.UserDTOSpring;
+import univercity.softserve.dbo.UserSpring;
+import univercity.softserve.dto.UserDTOSpring;
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
