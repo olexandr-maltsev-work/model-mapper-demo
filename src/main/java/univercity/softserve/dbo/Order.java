@@ -2,7 +2,9 @@ package univercity.softserve.dbo;
 
 public class Order {
 
-    Customer customer;
+    private Customer customer;
+    private Address billingAddress;
+
 
     public Order() {
     }
@@ -28,5 +30,4 @@ public class Order {
         this.billingAddress = billingAddress;
     }
 
-    public Address billingAddress;
 }
