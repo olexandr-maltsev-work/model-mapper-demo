@@ -10,7 +10,8 @@ import univercity.softserve.dto.OrderDTO;
 
 import static org.junit.Assert.*;
 
-public class MainAppTest {
+public class MainAppWithMapper01Test {
+
     @Test
     public void testOrderDTO() {
         Name name = new Name("Jack", "Fox");
