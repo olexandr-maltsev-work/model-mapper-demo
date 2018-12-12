@@ -28,5 +28,5 @@ public class Order {
         this.billingAddress = billingAddress;
     }
 
-    Address billingAddress;
+    public Address billingAddress;
 }
